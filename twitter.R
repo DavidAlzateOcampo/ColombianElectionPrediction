@@ -35,10 +35,8 @@ twitCred$handshake(
 )
 ## Old way of executing with registerTwitterOAuth, this is deprecated so We will not use it in our developments
 ## registerTwitterOAuth(twitCred)
-## Authorized Pin if required is 82499743
 ##To enable the connection, please direct your web browser to: 
-##https://api.twitter.com/oauth/authorize?oauth_token=z_kJ5wAAAAAAiAtuAAABUFIdL3E
-##When complete, record the PIN given to you and provide it here: 8249974
+
 
 ## New way to register the R application 
 setup_twitter_oauth(consumer_key = apiKey, consumer_secret = apiSecret, access_token = apiAccessToken, access_secret = apiAccessTokenSecret)
